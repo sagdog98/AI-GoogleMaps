@@ -7,7 +7,9 @@ You are to provide JavaTM classes that implement the following three search algo
 4. an integer depth limit for the search — if this depth is ever reached during a search (i.e., a node at this depth or deeper is considered for expansion), the 
 
 Utilities to design and implement throughout the project:
+
 • Location — This object encodes a location on the map. It is a “state” in the “state space” to be searched.
+
 • Road — This object encodes a road segment from one location to another. Each Location records all of the road segments leading away from that location. This list of Road objects provides the “successor function” result for each “state”.
 • Map — This object gathers together all of the Location objects on the map. It provides utilities for reading map descriptions from files.
 3
